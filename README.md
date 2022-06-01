@@ -1,4 +1,5 @@
 # proxydemo
+Demo Spring Boot application to use RestTemplate access Rest API through authenticated Web Proxy 
 
 ## deployment
 
