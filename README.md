@@ -1,7 +1,7 @@
 # proxydemo
 Demo Spring Boot application to use RestTemplate access Rest API through authenticated Web Proxy 
 
-## deployment
+## Deployment
 
 ```yaml
 apiVersion: apps/v1
@@ -29,7 +29,7 @@ spec:
             optional: true
 ```
 
-## configmap
+## ConfigMap
 ```yaml
 apiVersion: v1
 kind: ConfigMap
