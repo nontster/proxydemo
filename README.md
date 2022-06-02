@@ -1,7 +1,13 @@
 # proxydemo
 Demo Spring Boot application to use RestTemplate access Rest API through authenticated Web Proxy 
 
-## Deployment
+## Building Docker image
+```
+mvnw -DskipTests spring-boot:build-image
+```
+
+## Kubernetes Deployment
+### Deployment
 
 ```yaml
 apiVersion: apps/v1
@@ -29,7 +35,7 @@ spec:
             optional: true
 ```
 
-## ConfigMap
+### ConfigMap
 ```yaml
 apiVersion: v1
 kind: ConfigMap
