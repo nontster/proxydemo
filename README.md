@@ -35,7 +35,6 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: proxydemo-config
-  namespace: default
 data:
   proxy_enabled: "true"
   proxy_host: "1.2.3.4"
